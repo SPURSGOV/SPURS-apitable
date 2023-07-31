@@ -2,7 +2,7 @@
 name: Product(Feature) Requirement Documentation
 about: Submit an detail feature PRD for APITable
 title: 'feat: A brief description of the feature PRD'
-labels: 'enhancement'
+labels: enhancement
 assignees: ''
 
 ---
@@ -88,5 +88,3 @@ assignees: ''
 # 9. Next Steps
 
 > After read this APITable's feature PRD, what next steps you want?
-
-

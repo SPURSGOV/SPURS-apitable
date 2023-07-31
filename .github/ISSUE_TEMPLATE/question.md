@@ -2,7 +2,7 @@
 name: Question?
 about: Submit any questions about APITable.
 title: 'question: A brief description of your question'
-labels: 'question'
+labels: question
 assignees: ''
 
 ---

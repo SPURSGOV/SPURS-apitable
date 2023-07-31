@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help APITable improve
 title: 'fix: A brief description of the BUG'
-labels: 'bug'
+labels: bug
 assignees: ''
 
 ---
