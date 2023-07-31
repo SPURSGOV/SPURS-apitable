@@ -1,0 +1,21 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v2
+  
+  - name: Set up Node.js
+    uses: actions/setup-node@v2
+    with:
+      node-version: "14"
+    
+  - name: Install Dependabot
+    run: npm install -g dependabot
+  
+  - name: Run Dependabot
+    run: dependabot --allow-duplicates --ignore=dependabot.ignore.yml --directory="/"
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
