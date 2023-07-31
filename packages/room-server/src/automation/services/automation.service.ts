@@ -49,6 +49,12 @@ import { AutomationRobotRepository } from '../repositories/automation.robot.repo
 import { AutomationRunHistoryRepository } from '../repositories/automation.run.history.repository';
 import { AutomationTriggerRepository } from '../repositories/automation.trigger.repository';
 import { RobotRobotService } from './robot.robot.service';
+import { AutomationActionRepository } from '../repositories/automation.action.repository';
+import { In } from 'typeorm';
+import { AutomationTriggerRepository } from '../repositories/automation.trigger.repository';
+import { AutomationActionEntity } from '../entities/automation.action.entity';
+import { AutomationTriggerEntity } from '../entities/automation.trigger.entity';
+import { AutomationRobotEntity } from '../entities/automation.robot.entity';
 
 /**
  * handle robot execution scheduling
